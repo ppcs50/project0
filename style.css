@@ -1,0 +1,56 @@
+
+
+header {
+    background-color: #4f29aa;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    height: 50px;
+}
+
+nav {
+    background-color: white;
+    float: left;
+    padding: 10px;
+    width: 25%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 200%
+}
+
+article {
+    padding: 20px;
+    float: left;
+    width: 75%;
+    background-color: #f1f1f1;
+
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+#phototitle {
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+}

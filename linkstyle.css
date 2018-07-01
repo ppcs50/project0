@@ -1,0 +1,10 @@
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+a:hover {
+    color: #4f29aa;
+}
