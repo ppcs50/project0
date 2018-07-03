@@ -20,8 +20,8 @@ I thought to introduce my city to everyone is worth to try. I've used Collapse, 
 ### style.scss and style.css
 1. I wanted to apply my home university main color(#3f4099) into some parts, such as header, some titles, and link(hover). So I put $color tag so I can easily change it in anytime. 2.
 2. Also, using %padding I can easily apply the same amount of padding, to header, nav, and footer sections.
-3. The most hardest part in this file was the symmetry of nav and article. I've tried almost every percentage around 20/80 to 40/60, and finally I added max-width tag on both, it became more sexier. But I couldn't try with big monitor with high resolution so I am not sure about it.
-4. with @media query, when in a smaller screen(less than 640px), nav goes upside of the article section. I've tried to make it better by adjust the text-align and line-height.
+3. The most hardest part in this file was the symmetry of nav and article. I've tried almost every percentage around 20/80 to 40/60, and finally I added max-width tag on nav section, I think it's now more sexier.
+4. With @media query, when in a smaller screen(less than 640px), nav goes upside of the article section. I've tried to make it better by adjust the text-align and line-height.
 
 ## additional information
 Actually, I asked a question on the Slack page about how I can apply layout so that I don't have to repeatedly input the nav section in the head of every page. I got a response from Professor David J. Malan to use Jekyll to solve it, and I tried but failed. In the future, I want to improve it by applying Jekyll.
