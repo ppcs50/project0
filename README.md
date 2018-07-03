@@ -8,7 +8,7 @@ In README.md
 3. (optionally) any other additional information the staff should know about your project
 
 ## Description of my Project0
-My Project0: Homepage is made as my personal blog. I hope I can use this webpage as unofficial resume. It could be more simple and unique than 
+My <Project0: Homepage> is my personal blog. I hope I can use this webpage not only for a temporary assignment but as unofficial resume. There are 4 pages; introduction, biography, photography, and tokyo guide.
 
 ## What's in each of the files
 ### intro.html
@@ -20,7 +20,7 @@ I don't think this page fits with 'biography' of mine, but I couldn't find any a
 ### photo.html
 In this page I've used the Carousel, a components of Bootstrap 4. There are three carousels work exactly same way. With this I can show lots of picture in more clean and ordered way. I put some informations right downside of the photo, where and when and with which camera I took this photo. Also, in the last of the page, I put a comment that the copyright of all of the photography is on me.
 
-### Tokyo.html
+### tokyo.html
 I thought to introduce my city to everyone is worth to try. I've used Collapse, Accordian component from Bootstrap 4, and made a change that the font color of the titles(links) into black. At first I tried to write the information by myself then I realized that it probably cost more time than to make whole the hompage, so I just scrapped from one of the famous tour guide site and put references. Also, in the last of the page, I put a comment that the copyright of all of the photography is on me.
 
 ## addtional information
