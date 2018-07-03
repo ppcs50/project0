@@ -17,6 +17,8 @@ In this page, I've used the Carousel, a component of Bootstrap 4. There are thre
 ### tokyo.html
 I thought to introduce my city to everyone is worth to try. I've used Collapse, Accordion component from Bootstrap 4, and made a change that the font color of the titles(links) into the black. At first, I tried to write the information by myself then I realized that it probably cost more time than to make whole the homepage, so I just scrapped from one of the famous tour guide sites and put references. Also, in the last of the page, I put a comment that the copyright of all of the photography is on me.
 
+### style.scss and style.css
+1. I wanted to apply my home university main color(#3f4099) into some parts, such as header, some titles, and link(hover). So I put $color tag so I can easily change it in anytime. Also, using %padding I can easily apply the same amount of padding, to header, nav, and footer sections. The most hardest part in this file was the symmetry of nav and article. I've tried almost every percentage around 20/80 to 40/60, and finally I added max-width tag on both, it became more sexier. But I couldn't try with big monitor with high resolution so I am not sure about it.
 
 ## additional information
 Actually, I asked a question on the Slack page about how I can apply layout so that I don't have to repeatedly input the nav section in the head of every page. I got a response from Professor David J. Malan to use Jekyll to solve it, and I tried but failed. In the future, I want to improve it by applying Jekyll.
