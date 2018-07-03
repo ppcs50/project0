@@ -1,0 +1,86 @@
+$color: #4f29aa;
+
+%padding {
+    padding: 10px;
+}
+
+header {
+    @extend %padding;
+    background-color: $color;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    height: 50px;
+}
+
+nav {
+    @extend %padding;
+    background-color: white;
+    float: left;
+    width: 20%;
+
+    ul {
+        @extend %padding;
+        list-style-type: none;
+        font-size: 20px;
+        line-height: 200%; }
+}
+
+article {
+    padding: 20px;
+    float: left;
+    width: 80%;
+    background-color: #f1f1f1;
+
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    @extend %padding;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+table, th, td {
+
+    border-collapse: collapse;
+}
+
+th, td {
+    @extend %padding;
+    font-family: "Times New Roman", Times, serif;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+a:hover {
+    color: $color;
+}
+
+p.italic {
+    font-style: italic;
+    font-size: 12px ;
+}
+
+#phototitle {
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+}
